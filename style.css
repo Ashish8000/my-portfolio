@@ -1,0 +1,166 @@
+
+/* good pratice */
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* header section */
+
+#body-header{
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(static/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* for the parallax effect */
+    padding-top: 1.2rem;
+
+}
+
+.horizontal-list{
+    list-style: none; /* in order to make the list items bullets to none */
+    padding-left: 0px;
+    margin: 0px;
+}
+
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a{
+    transition: color 0.5s;
+    transition: linear 0.15s;
+}
+
+.nav-menu li a:hover{
+    color: lightgrey;
+    border-bottom: 1.5px solid lightgrey;
+}
+
+/* name and social */
+
+
+#name_social-container{
+    margin-top: 20vh;
+}
+
+#name{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+
+}
+
+#social-icons li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 30%;
+    transition: white 1s ease-in-out;
+}
+
+
+
+#social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px lightgrey;
+}
+
+
+/*     from blackbox.ai   
+
+.social-icon {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .social-icon i:first-child {
+    font-size: 2rem;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon i:first-child:hover {
+    color: #333;
+  }
+  
+  .social-icon i:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 2rem;
+    text-align: center;
+    color: lightgrey;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-icon:hover i:last-child {
+    opacity: 1;
+  }
+
+
+.hover-effect i:nth-child(2){
+    display: none;
+}
+.hover-effect:hover i:nth-child(1){
+    display: none;
+}
+.hover-effect:hover i:nth-child(2){
+    display: block;
+} */
+
+
+
+
+/* body section */
+
+#about{
+    height: auto;
+    width: 100%;
+    margin-top: -15vh;
+    position: relative; /* this will help us to display about section at the front of the behind div */
+}
+
+#about p{
+    margin: 5rem 30vh 5rem 30vh; /* top right bottom left */
+    font-weight: 450;
+    padding: auto;
+    letter-spacing: 0.1px;
+    color: grey;
+}
+
+/* this will allow us to set the height and width of the parent div of the image */
+#profile_image{
+   height: 12rem;
+   width: 12rem;
+   margin: auto;
+}
+
+/* and this will allow us to set the image 100 percent to the DIV CONTAINER */
+#profile_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+}
+
+
