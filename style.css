@@ -102,7 +102,7 @@ span{
 #about{
     height: auto;
     width: 100%;
-    margin-top: -17vh;
+    margin-top: -15vh;
     position: relative; /* this will help us to display about section at the front of the behind div */
 }
 
@@ -201,23 +201,110 @@ section{
     background-color: lightgrey;
     border-radius: 1.8rem;
     box-shadow: 0px 0px 5px 5px lightgrey;
+    transition: 0.5s;
 }
 
 .parent_skillbar:hover{
-    height: 2.5rem;
-    width: 11rem;
+    height: 7rem;
+    width: 10rem;
 }
 
 .percentage{
     height: inherit;
-    border-radius: 1.8rem;
+    border-radius: inherit;
 }
+
 
 .skillname span{
     color: white;
     font-size: 1.5rem;
     margin: 0.8rem;
-    justify-content: center;
-    align-items: center;
 
+}
+
+.skillname{
+    border-radius: 1.8rem;
+}
+
+/*     seperate boxes    */
+
+
+#cpp{
+    height: 100%;
+    width: 90%; 
+    background-color: #4ecdc4;
+    transition: 0.5s;
+}
+#cpp:hover{
+    height: 100%;
+    width: 100%;
+}
+
+
+#dsa{
+    height: 100%;
+    width: 40%; 
+    background-color: #ffe1a8;
+    transition: 0.5s;
+}
+#dsa:hover{
+    height: 100%;
+    width: 100%;
+}
+
+#html{
+    height: 100%;
+    width: 80%; 
+    background-color: #f8d49a;
+    transition: 0.5s;
+}
+#html:hover{
+    height: 100%;
+    width: 100%;
+}
+
+#css{
+    height: 100%;
+    width: 40%; 
+    background-color: #ffe1a8;
+    transition: 0.5s;
+}
+#css:hover{
+    height: 100%;
+    width: 100%;
+}
+
+#javascript{
+    height: 100%;
+    width: 45%; 
+    background-color: #4ecdc4;
+    transition: 0.5s;
+}
+#javascript:hover{
+    height: 100%;
+    width: 100%;
+}
+
+#nodejs{
+    height: 100%;
+    width: 40%; 
+    background-color: #f8d49a;
+    transition: 0.5s;
+}
+#nodejs:hover{
+    height: 100%;
+    width: 100%;
+}
+
+
+#BackEnd{
+    height: 100%;
+    width: 50%; 
+    background-color: #64c4c3;
+    transition: 0.5s;
+
+}
+#BackEnd:hover{ 
+    height: 100%;
+    width: 100%;
 }
